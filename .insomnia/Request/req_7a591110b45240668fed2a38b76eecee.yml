@@ -1,0 +1,27 @@
+_id: req_7a591110b45240668fed2a38b76eecee
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590503753312
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590503587124
+method: GET
+modified: 1590503853406
+name: Beatmap Info
+parameters:
+  - description: ""
+    id: pair_4d0fef4b145d405784c8a825220c786a
+    name: ""
+    value: ""
+parentId: fld_f2e6f038c6d34e109eaba70796ac966b
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/beatmaps/75

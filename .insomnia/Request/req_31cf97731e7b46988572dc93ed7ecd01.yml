@@ -1,0 +1,23 @@
+_id: req_31cf97731e7b46988572dc93ed7ecd01
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590503986742
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590503508309.75
+method: GET
+modified: 1590504001753
+name: Check Download Quota
+parameters: []
+parentId: fld_bee64eddaa7d4715882f2ed8853254b9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/me/download-quota-check

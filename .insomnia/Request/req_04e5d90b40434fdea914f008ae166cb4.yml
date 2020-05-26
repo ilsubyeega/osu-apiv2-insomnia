@@ -1,0 +1,23 @@
+_id: req_04e5d90b40434fdea914f008ae166cb4
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590503377036
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590503377036
+method: GET
+modified: 1590503471696
+name: Get Notifications
+parameters: []
+parentId: fld_3c70b0d835f44424a31bb692c51f0af5
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/notifications

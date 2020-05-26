@@ -1,0 +1,23 @@
+_id: req_ec9c197106a94002ae01cdb2f5288c49
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590503587074
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590503587074
+method: GET
+modified: 1590503612275
+name: Beatmapset Search
+parameters: []
+parentId: fld_f2e6f038c6d34e109eaba70796ac966b
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/beatmapsets/search/aa

@@ -1,0 +1,23 @@
+_id: req_e4da85a67a754a22b92fc4bd84d937b9
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590503912667
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590503534564.5
+method: GET
+modified: 1590503962899
+name: Check Own Information
+parameters: []
+parentId: fld_bee64eddaa7d4715882f2ed8853254b9
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/me/

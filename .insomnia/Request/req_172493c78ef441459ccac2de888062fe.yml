@@ -1,0 +1,23 @@
+_id: req_172493c78ef441459ccac2de888062fe
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590503644600
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590503482055
+method: GET
+modified: 1590504638952
+name: Beatmapset Lookup
+parameters: []
+parentId: fld_f2e6f038c6d34e109eaba70796ac966b
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/beatmapsets/lookup

@@ -1,0 +1,23 @@
+_id: req_249ea45785324d17873ba95782dbdac8
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590504692781
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590504243384
+method: GET
+modified: 1590504696271
+name: Get Kudosu
+parameters: []
+parentId: fld_0925611ba4834b9db4fe144a0216ae72
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/users/{{ osu.userid }}/kudosu

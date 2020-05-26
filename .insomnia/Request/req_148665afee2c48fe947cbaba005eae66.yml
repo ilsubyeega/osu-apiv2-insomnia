@@ -1,0 +1,23 @@
+_id: req_148665afee2c48fe947cbaba005eae66
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590504311893
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590504311893
+method: GET
+modified: 1590504618209
+name: Get scores by type
+parameters: []
+parentId: fld_0925611ba4834b9db4fe144a0216ae72
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/users/{{ osu.userid }}/scores/best

@@ -1,0 +1,27 @@
+_id: req_a140745a256947dda599d00f75df4e3f
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590503671050
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590503429545.5
+method: GET
+modified: 1590503718123
+name: Beatmapset Download
+parameters:
+  - description: ""
+    id: pair_4d0fef4b145d405784c8a825220c786a
+    name: ""
+    value: ""
+parentId: fld_f2e6f038c6d34e109eaba70796ac966b
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/beatmapsets/1/download

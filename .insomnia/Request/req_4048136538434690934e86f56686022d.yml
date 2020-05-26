@@ -1,0 +1,45 @@
+_id: req_4048136538434690934e86f56686022d
+authentication: {}
+body:
+  mimeType: multipart/form-data
+  params:
+    - description: ""
+      id: pair_f7ed2f65735f4bf69082b567db0c2434
+      name: code
+      value: def502003d8802aae5e3741a88e56177974df5108701cdc74fd8ed83b9cbe0321b71a6df3004237590bccf289951a422e6584e594547deb9cdab1b788747b8042ba155f40b01587b47f153a31cd70841c2a60ea1dedafd156b2d792c46e0ee6c0f0dabd2685d9bd3cadd6bab923a7ecdd1141284909959b24e4dfdb023f5b8824de20eb8365d6bfcd215a4b9b24a00dfda71bcfc73dc1505a4dc37891b99c680f257b0469f2ee6331b03231e60560972344cdb13bb0333e680592297e54adf94ee3616c65af8b0289b87c44c5ec2fd34920294e90e3f562d115d80b0a6949b0643222dc8fe274ec66ad93f8b2437b1d1a3ccada857743c0e0bbe5d1de8db22e492e2a81be48327b1c667b56dd7111634fab3851710da6068283d58c745c323ad294297b15942cdb968117ff90b4d0e1ba80d28aa970dcc1f9d828a606cf3f4577fb7f3f3e92d00678c35630b6c0768baa32740caa0e62bf39e02fbb6f1b3496ae60be6685d0159ddaf13000f5df5d63e527cda2b66d4fbaf0e89fa3ef1906940dae857d73edc3f2e6408322ecae7e6e5
+    - id: pair_f33fd25ebd6d42a19e385d64eade0cf5
+      name: client_id
+      value: "{{ oauth.client_id  }}"
+    - description: ""
+      id: pair_975772733d4f4201a6daa439e233ba1b
+      name: client_secret
+      value: "{{ oauth.client_secret  }}"
+    - description: ""
+      id: pair_298084fe86634d3eac460313f60b4a54
+      name: grant_type
+      value: authorization_code
+    - description: ""
+      id: pair_b7a7fb61b7fc484f8c06dc4802bb5145
+      name: redirect_uri
+      value: "{{ oauth.callback_url  }}"
+created: 1590502402135
+description: ""
+headers:
+  - id: pair_901585d8cabc42f185e117f5dab56aee
+    name: Content-Type
+    value: multipart/form-data
+isPrivate: false
+metaSortKey: -1590502402135
+method: POST
+modified: 1590503306868
+name: Get token
+parameters: []
+parentId: fld_455ab244d74440508e5ce02a2236999a
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/oauth/token

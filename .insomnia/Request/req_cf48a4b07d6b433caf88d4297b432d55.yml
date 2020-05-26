@@ -1,0 +1,23 @@
+_id: req_cf48a4b07d6b433caf88d4297b432d55
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590504755084
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590504755084
+method: GET
+modified: 1590504780530
+name: Get List
+parameters: []
+parentId: fld_586bbeb804a948a1849d2504c1411b61
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/rooms/std

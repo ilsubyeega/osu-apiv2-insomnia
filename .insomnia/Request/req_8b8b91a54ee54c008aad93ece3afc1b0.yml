@@ -1,0 +1,23 @@
+_id: req_8b8b91a54ee54c008aad93ece3afc1b0
+authentication:
+  token: "{{ token.access_token  }}"
+  type: bearer
+body: {}
+created: 1590504108878
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1590504086610
+method: GET
+modified: 1590504138681
+name: Get news via id
+parameters: []
+parentId: fld_ab99155badf04fb4add7f1704b61af36
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://osu.ppy.sh/api/v2/news/1
